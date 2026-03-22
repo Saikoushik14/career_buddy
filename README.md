@@ -1,59 +1,123 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Career Buddy – AI-Based Career Guidance Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📌 Overview
 
-## About Laravel
+**Career Buddy** is an intelligent career guidance platform designed to help students and job seekers identify the most suitable career paths based on their skills, interests, and performance.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The system conducts an assessment using a predefined dataset of questions and generates a **personalized career roadmap** for each user.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🎯 Key Features
 
-## Learning Laravel
+* 🧠 **Assessment System**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+  * 100 randomized questions per user
+  * Questions sourced from a large dataset (~15,000 questions)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* 📊 **Performance Analysis**
 
-## Laravel Sponsors
+  * Evaluates user responses
+  * Identifies strengths and weaknesses
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* 🛣️ **Career Roadmap Generation**
 
-### Premium Partners
+  * Suggests suitable career paths
+  * Provides step-by-step learning roadmap
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+* ⚡ **Automated Recommendation Engine**
 
-## Contributing
+  * Matches user profile with career domains
+  * Data-driven decision making
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🛠️ Tech Stack
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* **Frontend:** (Add if used – e.g., HTML, CSS, React)
+* **Backend:** Python
+* **Libraries:** Pandas, NumPy (if used)
+* **Database:** CSV Dataset / (Add DB if used)
+* **Other Tools:** Machine Learning (if applicable)
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 📂 Project Structure
 
-## License
+```
+career_buddy/
+│── data/                # Question dataset (CSV)
+│── src/                 # Core logic
+│── models/              # ML models (if any)
+│── app.py               # Main application
+│── requirements.txt     # Dependencies
+│── README.md            # Project documentation
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```
+git clone https://github.com/Saikoushik14/career_buddy.git
+```
+
+2. Navigate to project folder:
+
+```
+cd career_buddy
+```
+
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4. Run the application:
+
+```
+python app.py
+```
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here for better impact)*
+
+---
+
+## 💡 Future Enhancements
+
+* 🔹 AI-based adaptive questioning
+* 🔹 Web-based interactive UI
+* 🔹 Integration with job platforms
+* 🔹 Real-time analytics dashboard
+
+---
+
+## 🏆 Project Highlights
+
+* Solves real-world problem of career confusion
+* Scalable assessment system
+* Personalized recommendations using data
+
+---
+
+## 👤 Author
+
+**Sai Koushik Kasula**
+
+* 🎓 B.Tech Data Science
+* 💡 Interested in AI, ML, and Career-Tech Solutions
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
